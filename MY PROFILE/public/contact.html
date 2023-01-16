@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile Contact</title>
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../src/home.css">
+        <style>
+            body{
+                background-image: url('../public/images/coding.png');
+                background-repeat: no-repeat;
+                background-position: 100%;
+            }
+            .contactDIV{
+                color: gray;
+                text-align: left;
+                display: grid;
+                height: 300px; 
+                width: 500px;
+            }
+            
+            .heading{
+                color: gray;
+            }
+        </style>
+    </head>
+    <body class="container-fluid mt-2 bg-dark">
+            <h1 class="heading"><span class="bi bi-phone-vibrate"></span> Contact me</h1>
+            <hr class="heading" width="500px">
+            <form class="border border-1 p-3 rounded-3 contactDIV">
+                <div>
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control">
+                    <label class="form-label">Your Comment's</label>
+                    <input type="textarea" class="form-control">
+                    <button class="btn btn-primary mt-3 w-100">Send</button>
+                </div>
+            </form>
+
+
+            <div class="mt-5 col-6 text-left text-light">
+                <span>Follow me On - </span>
+                <span class="bi bi-facebook ms-3"></span>
+                <span class="bi bi-instagram ms-3"></span>
+                <span class="bi bi-twitter ms-3"></span>
+                <span class="bi bi-github ms-3"></span>
+                <span class="bi bi-linkedin ms-3"></span>
+                
+            </div>
+            <div class="col-6 text-left text-light mt-4">
+                <div>
+                    <span>Contact me -</span>
+                    <span class="bi bi-phone-flip"></span> +91 9630126293,  
+                    <span class="bi bi-envelope-at"></span> umashverma55@gmail.com
+                </div>
+            </div>
+        <script src="../../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
